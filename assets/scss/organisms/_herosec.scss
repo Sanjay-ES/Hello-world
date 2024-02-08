@@ -1,0 +1,15 @@
+.hl-leftsec{
+    padding: 40px;
+    &__outer{
+        width: 60%;
+    }
+    .hl-heading{
+        margin-bottom: 16px;
+    }
+    &__text{
+        color: var(--clr-subheading);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+}
