@@ -1,0 +1,20 @@
+.hl-bodysec{
+    padding-top: 100px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(100vh - 45px);
+}
+
+@include tablet{
+    .hl-bodysec{
+        min-height: unset;
+        padding-top: 60px;
+    }
+}
+@include mobile{
+    .hl-bodysec{
+        padding-top: 60px;
+        min-height: unset;
+    }
+}

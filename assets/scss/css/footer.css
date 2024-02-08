@@ -10,6 +10,17 @@
 .hl-footer__tile {
   width: calc(33% - 16px);
   margin: 0 8px;
-  border-left: 3px solid var(--clr-yellow);
+  border-left: 4px solid var(--clr-yellow);
   padding-left: 16px;
+}
+.hl-footer__tile h4 {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--clr-white);
+  margin-bottom: 16px;
+}
+.hl-footer__tile p {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--clr-white);
 }

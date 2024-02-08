@@ -1,5 +1,18 @@
 .hl-header{
-    padding: 20px 0;
+    padding: 8px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    &--sticky{
+        background-color: var(--clr-white);
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        z-index: 2;
+        // ~.hl-bodysec{
+        //     padding-top: 126px;
+        // }
+    }
     .container-fluid{
         padding: 0;
     }
@@ -42,8 +55,10 @@
     }
 }
 
-@include mobile{
+@include mobile-tablet{
     .hl-header{
+        background-color: var(--clr-white);
+        z-index: 3;
         padding: 8px 0;
         .navbar{
             padding: 0 !important;
