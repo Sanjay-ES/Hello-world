@@ -1,5 +1,5 @@
 .hl-leftsec{
-    padding: 40px 0;
+    padding: 20px 0 8px;
     &__outer{
         width: 60%;
     }
@@ -53,6 +53,7 @@
         }
     }
 }
+
 
 @include tablet{
     .hl-leftsec{

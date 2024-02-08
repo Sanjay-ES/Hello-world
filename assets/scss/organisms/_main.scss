@@ -1,4 +1,7 @@
 .hl-bodysec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-top: 100px;
     background-position: top;
     background-repeat: no-repeat;
