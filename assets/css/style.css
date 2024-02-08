@@ -677,7 +677,7 @@ button {
 }
 @media (max-width: 767px) {
   .hl-footer {
-    padding: 32px 0;
+    padding: 32px 0 40px;
     background-color: var(--clr-footer);
   }
   .hl-footer__out {

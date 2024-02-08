@@ -39,7 +39,7 @@
 
 @include mobile{
     .hl-footer{
-        padding: 32px 0;
+        padding: 32px 0 40px;
         background-color: var(--clr-footer);
         &__out{
             width: 100%;
