@@ -706,7 +706,7 @@ button {
   font-size: 40px;
   font-weight: 600;
   color: var(--clr-white);
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 }
 .hl-footer__tile p {
   font-size: 20px;
