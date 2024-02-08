@@ -278,7 +278,7 @@ button {
   }
 }
 .hl-heading {
-  width: 75%;
+  width: 80%;
   font-size: 50px;
   font-weight: 700;
   text-align: left;
@@ -816,7 +816,7 @@ button {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: calc(100vh - 45px);
+  min-height: calc(100vh - 30px);
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
