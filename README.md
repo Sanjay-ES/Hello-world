@@ -9,11 +9,11 @@ This repository contains an HTML page that you can run on your local machine.
 
 1. **Clone the Repository**: Run this command in your terminal or command prompt:
 
-git clone https://github.com/your-username/your-repository.git
-
-Replace `your-username` and `your-repository` with your GitHub username and repository name.
+git clone https://github.com/Sanjay-ES/Hello-world.git
 
 2. **Navigate to the Directory**: Use the `cd` command to move into the repository directory:
+
+cd Sanjay-ES
 
 ### Downloading as ZIP
 
